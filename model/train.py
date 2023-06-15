@@ -105,14 +105,11 @@ def train(
     clip_grad=0,
     max_epochs=200,
     early_stop=10,
-    compile_model=False,
     verbose=1,
     plot=False,
     log=None,
     save=None,
 ):
-    if torch.__version__ >= "2.0.0" and compile_model:
-        model = torch.compile(model)
     model = model.to(DEVICE)
 
     wait = 0
@@ -219,15 +216,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-d", "--dataset", type=str, default="pems08")
     parser.add_argument("-g", "--gpu_num", type=int, default=0)
-    parser.add_argument("-c", "--compile", action="store_true")
-    parser.add_argument("--seed", type=int, default=233)
-    parser.add_argument("--cpus", type=int, default=1)
     args = parser.parse_args()
 
-    # seed = args.seed
-    # seed = torch.randint(1000, (1,))
-    seed_everything(args.seed)
-    set_cpu_num(args.cpus)
+    seed = torch.randint(1000, (1,)) # set random seed here
+    seed_everything(seed)
+    set_cpu_num(1)
 
     GPU_ID = args.gpu_num
     os.environ["CUDA_VISIBLE_DEVICES"] = f"{GPU_ID}"
@@ -288,7 +281,7 @@ if __name__ == "__main__":
     elif dataset in ("PEMS03", "PEMS04", "PEMS07", "PEMS08"):
         criterion = nn.HuberLoss()
     else:
-        raise ValueError("Unsupported dataset.") 
+        raise ValueError("Unsupported dataset.")
 
     optimizer = torch.optim.Adam(
         model.parameters(),
@@ -339,7 +332,6 @@ if __name__ == "__main__":
         clip_grad=cfg.get("clip_grad"),
         max_epochs=cfg.get("max_epochs", 200),
         early_stop=cfg.get("early_stop", 10),
-        compile_model=args.compile,
         verbose=1,
         log=log,
         save=save,
