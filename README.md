@@ -1,4 +1,4 @@
-# STAEformer: Spatio-Temporal Adaptive Embedding Network
+## STAEformer: Spatio-Temporal Adaptive Embedding Network
 
 #### H. Liu*, Z. Dong*, R. Jiang#, J. Deng, J. Deng, Q. Chen, X. Song#, "Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting", Proc. of 32nd ACM International Conference on Information and Knowledge Management (CIKM), 2023. (*Equal Contribution, #Corresponding Author)
 
