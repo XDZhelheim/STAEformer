@@ -22,7 +22,7 @@ from lib.utils import (
 )
 from lib.metrics import RMSE_MAE_MAPE
 from lib.data_prepare import get_dataloaders_from_index_data
-from STAEN import STAEN
+from model.STAEformer import STAEformer
 
 # ! X shape: (B, T, N, C)
 
@@ -229,7 +229,7 @@ if __name__ == "__main__":
     dataset = args.dataset
     dataset = dataset.upper()
     data_path = f"../data/{dataset}"
-    model_name = "STAEN"
+    model_name = STAEformer.__name__
 
     with open(f"{model_name}.yaml", "r") as f:
         cfg = yaml.safe_load(f)
@@ -237,7 +237,7 @@ if __name__ == "__main__":
 
     # -------------------------------- load model -------------------------------- #
 
-    model = STAEN(**cfg["model_args"])
+    model = STAEformer(**cfg["model_args"])
 
     # ------------------------------- make log file ------------------------------ #
 

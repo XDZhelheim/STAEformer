@@ -108,7 +108,7 @@ class SelfAttentionLayer(nn.Module):
         return out
 
 
-class STAEN(nn.Module):
+class STAEformer(nn.Module):
     def __init__(
         self,
         num_nodes,
@@ -251,5 +251,5 @@ class STAEN(nn.Module):
 
 
 if __name__ == "__main__":
-    model = STAEN(207, 12, 12)
+    model = STAEformer(207, 12, 12)
     summary(model, [64, 12, 207, 3])
