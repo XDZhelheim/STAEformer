@@ -36,4 +36,15 @@ python train.py -d <dataset> -g <gpu_id>
 
 <img src="https://github.com/XDZhelheim/STAEformer/assets/57553691/5702ecaf-6315-4350-be22-b53cef1b1205" width="500">
 
+## Citation
+
+```
+@article{liu2023spatio,
+  title={Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting},
+  author={Liu, Hangchen and Dong, Zheng and Jiang, Renhe and Deng, Jiewen and Deng, Jinliang and Chen, Quanjun and Song, Xuan},
+  journal={arXiv preprint arXiv:2308.10425},
+  year={2023}
+}
+```
+
 
