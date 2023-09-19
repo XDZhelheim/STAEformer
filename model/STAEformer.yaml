@@ -188,6 +188,7 @@ PEMS08:
     num_layers: 3
     dropout: 0.1
 
+# This is abandoned, needs further tuning if you want to run
 PEMS03:
   num_nodes: 358
   in_steps: 12
@@ -225,5 +226,3 @@ PEMS03:
     num_heads: 4
     num_layers: 3
     dropout: 0.1
-
-
