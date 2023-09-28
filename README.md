@@ -34,7 +34,7 @@ python train.py -d <dataset> -g <gpu_id>
 
 ![perf1](https://github.com/XDZhelheim/STAEformer/assets/57553691/8049bce2-9bc2-4248-a911-25468e9bbab4)
 
-<img src="https://github.com/XDZhelheim/STAEformer/assets/57553691/5702ecaf-6315-4350-be22-b53cef1b1205" width="500">
+<img width="600" alt="image" src="https://github.com/XDZhelheim/STAEformer/assets/57553691/abf009aa-b145-451c-aff6-27031d60a612">
 
 ## Citation
 
