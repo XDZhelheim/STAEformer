@@ -26,6 +26,7 @@ python train.py -d <dataset> -g <gpu_id>
 `<dataset>`:
 - METRLA
 - PEMSBAY
+- PEMS03
 - PEMS04
 - PEMS07
 - PEMS08
