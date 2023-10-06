@@ -4,6 +4,17 @@
 
 ![model_arch](https://github.com/XDZhelheim/STAEformer/assets/57553691/f0620d5b-2b7f-47bc-bf76-5fccf48fae35)
 
+#### Preprints
+[![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=STAEformer&color=red&logo=arxiv)](https://arxiv.org/abs/2308.10425)
+
+#### Performance on Traffic Speed Benchmarks
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-adaptive-embedding-makes/traffic-prediction-on-pems04)](https://paperswithcode.com/sota/traffic-prediction-on-pems04?p=spatio-temporal-adaptive-embedding-makes)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-adaptive-embedding-makes/traffic-prediction-on-pems07)](https://paperswithcode.com/sota/traffic-prediction-on-pems07?p=spatio-temporal-adaptive-embedding-makes)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-adaptive-embedding-makes/traffic-prediction-on-pems08)](https://paperswithcode.com/sota/traffic-prediction-on-pems08?p=spatio-temporal-adaptive-embedding-makes)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-adaptive-embedding-makes/traffic-prediction-on-metr-la)](https://paperswithcode.com/sota/traffic-prediction-on-metr-la?p=spatio-temporal-adaptive-embedding-makes)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spatio-temporal-adaptive-embedding-makes/traffic-prediction-on-pems-bay)](https://paperswithcode.com/sota/traffic-prediction-on-pems-bay?p=spatio-temporal-adaptive-embedding-makes)
+
 ## Required Packages
 
 ```
