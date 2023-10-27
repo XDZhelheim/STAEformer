@@ -51,10 +51,11 @@ python train.py -d <dataset> -g <gpu_id>
 ## Citation
 
 ```
-@article{liu2023spatio,
-  title={Spatio-Temporal Adaptive Embedding Makes Vanilla Transformer SOTA for Traffic Forecasting},
+@inproceedings{liu2023spatio,
+  title={Spatio-temporal adaptive embedding makes vanilla transformer sota for traffic forecasting},
   author={Liu, Hangchen and Dong, Zheng and Jiang, Renhe and Deng, Jiewen and Deng, Jinliang and Chen, Quanjun and Song, Xuan},
-  journal={arXiv preprint arXiv:2308.10425},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={4125--4129},
   year={2023}
 }
 ```
