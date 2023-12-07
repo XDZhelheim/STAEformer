@@ -11,6 +11,7 @@ from torchinfo import summary
 import yaml
 import json
 import sys
+import copy
 
 sys.path.append("..")
 from lib.utils import (
@@ -141,7 +142,7 @@ def train(
             wait = 0
             min_val_loss = val_loss
             best_epoch = epoch
-            best_state_dict = model.state_dict()
+            best_state_dict = copy.deepcopy(model.state_dict())
         else:
             wait += 1
             if wait >= early_stop:
