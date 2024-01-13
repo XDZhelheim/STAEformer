@@ -15,10 +15,10 @@
 }
 ```
 
-#### CIKM23 Proceedings (including METRLA, PEMSBAY, PEMS04, PEMS07, PMES08 results)
+#### CIKM23 Proceedings (including METRLA, PEMSBAY, PEMS04, PEMS07, PEMS08 results)
 [https://dl.acm.org/doi/abs/10.1145/3583780.3615160](https://dl.acm.org/doi/10.1145/3583780.3615160)
 
-#### Preprints (including METRLA, PEMSBAY, PEMS03, PEMS04, PEMS07, PMES08 results)
+#### Preprints (including METRLA, PEMSBAY, PEMS03, PEMS04, PEMS07, PEMS08 results)
 [![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=STAEformer&color=red&logo=arxiv)](https://arxiv.org/abs/2308.10425)
 
 #### Performance on Traffic Forecasting Benchmarks
