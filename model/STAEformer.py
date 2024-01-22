@@ -115,7 +115,7 @@ class STAEformer(nn.Module):
         in_steps=12,
         out_steps=12,
         steps_per_day=288,
-        input_dim=3,
+        input_dim=1,
         output_dim=1,
         input_embedding_dim=24,
         tod_embedding_dim=24,
